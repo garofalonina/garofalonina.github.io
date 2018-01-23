@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Joti+One|Kavivanar|Macondo|Quicksand|Raleway|Ranga|Sedgwick+Ave+Display');
+/* Eric Meyer CSS Reset begins*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* Eric Meyer CSS Reset ends */
+
+
+.mainDiv{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px;
+    line-height: 30px;
+}
+
+ h2, h3, header{
+  margin-bottom: 20px;
+}
+
+strong{
+  font-weight: bold;
+}
+
+h1{
+  font-family: "serif";
+  color: #38439B;
+  font-size: 60px;
+  background-size: 100%;
+  text-align: center;
+  margin-top: 20px;
+
+}
+
+h2{
+  font-family: "sans-serif";
+  font-size: 36px;
+  color: #662D91;
+  text-align: center;
+
+}
+
+h3{
+  font-family: "sans-serif";
+  font-size: 33px;
+  color: #662D10;
+  margin-left: 30px;
+}
+
+ul{
+  font-family: "sans-serif";
+  color: black;
+  margin-left: 30px;
+  font-size: 26px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+p{
+  font-family: "sans-serif";
+  color: black;
+  margin-left: 30px;
+  font-size: 26px;
+}
+
+blockquote{
+  font-size: 25px;
+  font-family: "serif";
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  color: #38439B;
+}
+
+.para1{
+  text-align: left;
+  margin-bottom: 20px;
+
+}
+
+.para2, .para5, .para6{
+  text-align: left;
+  margin-bottom: 20px;
+
+}
+
+.para7{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #662D10;
+}
+
+
+.alignRight{
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.alignCenter{
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+.alignLeft{
+  margin-left: 70px;
+  margin-bottom: 20px;
+}

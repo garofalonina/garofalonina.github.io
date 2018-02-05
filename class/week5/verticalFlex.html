@@ -31,28 +31,80 @@ height: 600px;
 height: 150px;
 }
 
+.flexSingleItem{ /* On the parent container but centre the child element*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexSpaceAround{
+  display: flex;
+  justify-content: space-around;;
+  align-items: center;
+}
+
+.flexVertSpaceAround{
+  display: flex;
+  justify-content: space-around;;
+  align-items: center;
+  flex-direction: column;
+}
+
+ul li{
+  list-style: none;
+  text-transform: uppercase;
+}
+
+ul li a, ul li a:hover{
+  text-decoration: none;
+}
+
+.header{
+  line-height: 75px;
+}
+
   </style>
+
+
 
   </head>
   <body>
 
     <div class="container">
       <div class="row">
-        <div class="col-md-12 height1 randomColor"></div>
+        <div class="col-md-12 height1 header">
+          <ul class="flexSpaceAround">
+            <li><a href='#'>About</a></li>
+            <li><a href='#'>Home</a></li>
+            <li><a href='#'>Contact</a></li>
+            <li><a href='#'>Links</a></li>
+          </ul>
+        </div>
       </div>
 
 
     <div class="row">
-      <div class="col-md-4 height2 randomColor"></div>
+      <div class="col-md-4 height2 randomColor flexVertSpaceAround">
+        <img src="img/apple1.png" alt="apple" />
+        <img src="img/apple1.png" alt="apple" />
+        <img src="img/apple1.png" alt="apple" />
+      </div>
+
       <div class="col-md-8 height2 randomColor">
 <!-- Put Nested Rows Here -->
 <div class="row">
-  <div class="col-md-6 height3 randomColor"></div>
-    <div class="col-md-6 height3 randomColor"></div>
+  <div class="col-md-6 height3 randomColor flexSingleItem">
+<div>Centered</div>
+  </div>
+
+    <div class="col-md-6 height3 randomColor flexSingleItem">
+<div> Also Centered</div>
+    </div>
 </div>
 
 <div class="row">
   <div class="col-md-6 height3 randomColor"></div>
+
     <div class="col-md-6 height3 randomColor"></div>
 </div>
 

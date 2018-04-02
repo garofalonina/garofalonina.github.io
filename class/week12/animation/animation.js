@@ -145,6 +145,13 @@ var spriteImages = [{
     "name": "coin"
   },
   {
+      "spriteMapUrl": "images/blowup.png",
+      "numFrames": 10,
+      "width": 1000,
+      "height": 100,
+      "name": "blow up"
+    },
+  {
     "spriteMapUrl": "images/Madoka.png",
     "numFrames": 8,
     "width": 809,

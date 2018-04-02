@@ -206,8 +206,9 @@
       console.log("clicked buy!");
       //closest goes up the tree to find the first match
       var thisItem = $(this).closest(".itemContainer");
-      var itemId = $(this).attr("data-id");
+      var itemId = thisItem.attr("data-id");
 
+thisItem.find(".buttonContainer").remove();
       //write this item + form html
     var html = "<div data-id='"+itemId+"' class='itemContainer'>"+thisItem.html()+"</div>"+formHtml;
 
@@ -233,7 +234,7 @@ var password = $(".password").val();
 if(username && password){
 console.log("both are filled");
 var randomNumber = Math.floor(Math.random()*1000000);
-$(".checkoutContainer").html("<div class='confirmationMessage'>Thank you for your order<br>Confirmation #</div>");
+$(".checkoutContainer").html("<div class='confirmationMessage'>Thank you for your order<br>Confirmation #"+randomNumber+"</div>");
 //simulate sending to data to the database;
 //creating a json object with some info and writing to the screen
 //add a confirmation message to the
